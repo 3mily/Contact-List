@@ -1,0 +1,21 @@
+
+
+body {
+  padding: 30px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10%;
+}
+
+
+#result {
+  padding: 50px;
+  float: right;
+  background-color: #ddd;
+}
+
+.contact {
+  padding: 5px;
+}

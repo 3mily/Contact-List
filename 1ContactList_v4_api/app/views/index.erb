@@ -1,0 +1,47 @@
+<h1>Home Page</h1>
+<hr>
+
+<!--add new -->
+<div id='result'>
+</div>
+
+<div>
+  <h2> Add new contact: </h2>
+  <form id="new">
+    <div>
+      <label>Name:</label>
+      <input type="text" name="name" />
+    </div>
+    <div>
+      <label>E-Mail:</label>
+      <input type="text" name="email" />
+    </div>
+      <div>
+      <label>Phone:</label>
+      <input type="text" name="phone" />
+    </div>
+    <div><br>
+      <button>Submit</button>
+    </div>
+  </form>
+</div>
+
+<!-- list all-->
+<div>
+  <h2>List Contacts: </h2>
+  <div>
+    <button method="get" action="/api/list" id="list">List em!</button>
+  </div>
+</div>
+
+
+<div>
+  <h2>Find by ID: </h2>
+    <form id="search">
+      <input type="text" id="id_tofind"/>
+      <div><br>
+        <button type="submit">Search em!</button>
+      </div>
+    </form>
+</div>
+
