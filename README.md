@@ -21,4 +21,4 @@
 - Created in the 5th week of Lighthouse Labs coding bootcamp
 - Is a web app, built using Sinatra framework
 - Uses jQuery to talk to the server
-- to-do: Write up Documentation on how to use the API, brush up the front-end, deploy to production.
+- to-do: Write up Documentation on how to use the API, git front-end style glitches, deploy to production.
