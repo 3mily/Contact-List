@@ -2,6 +2,19 @@
 
 body {
   padding: 30px;
+  background-image: url(https://d3n8a8pro7vhmx.cloudfront.net/servingcalifornia/pages/305/attachments/original/1406790545/iStock_000007711819Large.jpg?1406790545);
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+
+img {
+  margin: 0 auto;
+  display: block;
 }
 
 button {
@@ -9,13 +22,49 @@ button {
   border-radius: 10%;
 }
 
-
-#result {
-  padding: 50px;
-  float: right;
-  background-color: #ddd;
+.hidden_show {
+  visibility: hidden;
 }
 
-.contact {
+.hidden_show {
+  visibility: hidden;
+}
+
+
+#result {
+  margin: 0 30% 0 30%;
+  background-color: rgba(3,3,3,0.1);
+}
+
+/*.contact {
   padding: 5px;
+}
+*/
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
 }

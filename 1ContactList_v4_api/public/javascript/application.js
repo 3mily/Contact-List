@@ -11,6 +11,16 @@ $(document).ready(function() {
     console.error("Oh shit: %s", error);
   });
 
+  $('#show_find').on('click', function(){
+    $('#result').empty();
+    $("div").removeClass("hidden_show");
+  });
+
+  $('#show_add').on('click', function(){
+    $('#result').empty();
+    $("div").removeClass("hidden_find");
+  });
+
   $('#new').on('submit',function(){
     // var form = $(this);
     $.ajax({
@@ -30,6 +40,7 @@ $(document).ready(function() {
 
 
   $('#list').on('click', function(){
+    $('#result').empty();
     $.ajax({
       url: "/api/list",
       type: "GET",
@@ -43,11 +54,11 @@ $(document).ready(function() {
 
   var updateContact = function(contact)
   {
-    $('#result').append('<div class="contact"><li> ID: ' + contact.id +
+    $('.flex-container').append('<ul class=".flex-item"><li> ID: ' + contact.id +
       '<li> Name: ' + contact.name +
       '<li> Email: ' + contact.email +
       '<li> Phone: ' + contact.phone +
-    '</div>');
+    '</ul>');
   }
 
   $('#search').on('submit', function(e)
