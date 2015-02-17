@@ -1,36 +1,37 @@
-# Homepage (Root path)
-
-
-require 'pry'
-
-
-
 get '/' do
   erb :index
 end
 
-
-post '/api/new' do
-
+#--------- [POST]route --------
+post '/api' do
   contact = Contact.new(params)
   contact.save
-
   contact.to_json
-
 end
 
-
-get '/api/list' do
-
-  contacts = Contact.all
-  contacts.to_json
-
-end
-
-get '/api/search/:id' do
+#--------- [GET] route --------
+get '/api/:id' do # -- find one
   contact = Contact.find_by(id: params[:id].to_i)
-
-  # binding.pry
   content_type 'application/json'
   contact.to_json
 end
+get '/api/list' do # -- list all
+  contacts = Contact.all
+  contacts.to_json
+end
+
+#--------- [PUT] route --------
+put '/api/:id' do
+  contact = Contact.find(params[:id])
+    contact.update(
+    name:   params[:name],
+    email:  params[:email],
+    phone: params[:phone]
+    )
+end
+
+#--------- [DELETE] route --------
+delete '/api/:id' do
+  contact = Contact.find(params[:id])
+  contact.destroy
+end 

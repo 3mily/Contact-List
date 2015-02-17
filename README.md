@@ -1,7 +1,7 @@
 # Contact List App (versions 1 to 4)
 ---
-##### > This App allows users manage their contacts (add/delete/search/edit).
-##### > 4 versions of the app were created.
+##### - A CRUD(create/read/update/delete) App which allows users manage their contacts.
+##### - 4 versions of the app were created, including an API. Scroll down for documentation link.
 
 ### Version 1 - Command Line app edition
 - Created in the 2nd week of Lighthouse Labs coding bootcamp
@@ -17,7 +17,7 @@
 - Created also in the 3rd week of Lighthouse Labs coding bootcamp
 - My first introduction to Active Record
 
-## Version 4 - API edition
+## Version 4 - API edition [DOCUMENTATION](https://github.com/3mily/Contact-List/tree/master/1ContactList_v4_api)
 - Created in the 5th week of Lighthouse Labs coding bootcamp
 - Is a web app, built using Sinatra framework
 - Uses jQuery to talk to the server
