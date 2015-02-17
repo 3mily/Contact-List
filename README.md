@@ -1,7 +1,8 @@
 # Contact List App (versions 1 to 4)
----
+
 ##### - A CRUD(create/read/update/delete) App which allows users manage their contacts.
 ##### - 4 versions of the app were created, including an API. Scroll down for documentation link.
+
 
 ### Version 1 - Command Line app edition
 - Created in the 2nd week of Lighthouse Labs coding bootcamp
@@ -21,3 +22,4 @@
 - Created in the 5th week of Lighthouse Labs coding bootcamp
 - Is a web app, built using Sinatra framework
 - Uses jQuery to talk to the server
+- to-do: Write up Documentation on how to use the API, git front-end style glitches, deploy to production.
