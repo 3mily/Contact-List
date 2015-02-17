@@ -18,8 +18,7 @@
 - Created also in the 3rd week of Lighthouse Labs coding bootcamp
 - My first introduction to Active Record
 
-## Edition 4 - API edition [documentation](https://github.com/3mily/Contact-List/tree/master/1ContactList_v4_api)
+## Edition 4 - API edition [(documentation)](https://github.com/3mily/Contact-List/tree/master/1ContactList_v4_api)
 - Created in the 5th week of Lighthouse Labs coding bootcamp
 - Is a web app, built using Sinatra framework
 - Uses jQuery to talk to the server
-- to-do: Write up Documentation on how to use the API, git front-end style glitches, deploy to production.
